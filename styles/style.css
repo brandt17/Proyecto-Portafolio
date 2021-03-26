@@ -170,6 +170,15 @@ button{
     margin-bottom: 30px;
 }
 
+.l-20{
+    font-size: 20px;
+}
+
+.l-30{
+    font-size: 30px;
+    font-weight: 900;
+}
+
 
 /* C O L O R E S   D E   L E T R A S */
 .letra-rosa{
@@ -191,9 +200,18 @@ button{
     text-align: center;
 }
 
+.t-center-total{
+    width: 100%;
+    text-align: center;
+}
+
 
 
 /* M A R G E N E S   G E N E R A L E S */
+.m-50{
+    margin: 50px
+}
+
 .mt-40{
     margin-top: 40px;
 }
@@ -207,6 +225,11 @@ button{
 /* I C O N O */
 .icono{
     font-size: 90px;
+}
+
+.icono-redes{
+    font-size: 20px;
+    color: #FF639F;
 }
 
 
@@ -234,4 +257,8 @@ button{
 
 .git-color{
     color: #F34F29;
+}
+
+.blanco{
+    color: white;
 }
