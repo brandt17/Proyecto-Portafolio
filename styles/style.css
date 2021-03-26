@@ -96,54 +96,68 @@ button{
 }
 .btn-rosa:hover{
     color: white;
-    padding: 15px 25px;
+    padding: 12px 22px;
     background: rgb(235,40,114);
     background: linear-gradient(0deg, rgba(235,40,114,1) 0%, rgba(255,115,180,1) 50%, rgba(249,60,60,1) 100%);
     border: 2px solid #000000;
 }
 
 
-/* FLEX */
-.flex-center-center{
+/* F L E X */
+.f-row-center-center{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.flex-start-center{
+.f-column-center-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-start-center{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.flex-row-between-center{
+.f-row-between-center{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.flex-column-between-center{
+.f-column-between-center{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.flex-column-end-start{
+.f-column-end-start{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
 }
 
-.flex-column-end-end{
+.f-column-end-end{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
+.f-column-around-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
 /* E S T I L O S    D E    L E T R A S */
 .title{
@@ -151,20 +165,13 @@ button{
     margin-bottom: 5px;
 }
 
-.medium-title{
-    font-size: 30px;
-}
-
-.big-title{
-    font-size: 60px;
-}
-
 .normal-title{
     font-size: 45px;
+    margin-bottom: 30px;
 }
 
 
-/* COLORES DE LETRAS */
+/* C O L O R E S   D E   L E T R A S */
 .letra-rosa{
     color: #FF639F;
 }
@@ -178,7 +185,53 @@ button{
 }
 
 
-/* MARGENES GENERALES */
+/* A L I N E A C I O N   D E L   T E X T O */
+.t-center{
+    width: 400px;
+    text-align: center;
+}
+
+
+
+/* M A R G E N E S   G E N E R A L E S */
+.mt-40{
+    margin-top: 40px;
+}
+
 .mb-40{
     margin-bottom: 40px;
+}
+
+
+
+/* I C O N O */
+.icono{
+    font-size: 90px;
+}
+
+
+
+/* C O L O R E S   I C O N O S */
+.html-color{
+    color: #E54D26;
+}
+
+.css-color{
+    color: #3D8FC6;
+}
+
+.sass-color{
+    color: #CB6699;
+}
+
+.js-color{
+    color: #F0DB4F;
+}
+
+.react-color{
+    color: #61DAFB;
+}
+
+.git-color{
+    color: #F34F29;
 }

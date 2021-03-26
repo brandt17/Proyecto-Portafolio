@@ -1,0 +1,29 @@
+/* SECCION DE PRESENTACION */
+.Habilidades{
+    width: 100%;
+    padding: 90px;
+    background-color: #F6F7FB;
+}
+
+
+/* G R I D */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,260px);
+    grid-template-rows: repeat(2,260px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.habilidad{
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #b8b8bb;
+    background-color: white;
+}
+
+.habilidad:hover{
+    border: 1px solid #FF639F;
+    color: #FF639F;
+    background-color: #fff1f7;
+}
