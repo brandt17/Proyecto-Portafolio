@@ -8,10 +8,12 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/header-style.css">
+    <link rel="stylesheet" href="./styles/presentacion-style.css">
 
     <!-- Iconos -->
     <script src="https://kit.fontawesome.com/2c03033082.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
         <!-- HEADER -->
@@ -41,17 +43,19 @@
         <!-- SECCION DE PRESENTACION -->
         <a name="HOLA"></a>
         <section class="Presentacion">
-            <div class="ladoIzquierdo centrar-presentacion">
-                <h2 class="titulo-presentacion">¡Hola! Soy</h2>
-                <h1 class="tituloGrande-presentacion letraRosa">Carina Brandt</h1>
-                <p class="descripcion-presentacion letraGris">Desarrolladora, estudiante y fan de las películas</p>
-                <a href="#PROYECTOS" class="boton botonRosa">LO QUE HAGO</a>
+            <div class="ladoIzquierdo flex-column-end-start">
+                <h2 class="title medium-title letra-gris-oscuro">¡Hola! Soy</h2>
+                <h1 class="title big-title letra-rosa">Carina Brandt</h1>
+                <p class="mb-40 letra-gris-claro">Desarrolladora, estudiante y fan de las películas</p>
+                <button><a href="#PROYECTOS" class="btn btn-rosa">LO QUE HAGO</a></button>
             </div>
-            <div class="ladoDerecho centrarImagen-presentacion">
+            <div class="ladoDerecho flex-column-end-end">
                 <img height="350px" src="./assets/images/undraw_software_engineer_lvl5.svg" alt="presentacion">
             </div>
         </section>
         <!-- FIN DE LA SECCION DE PRESENTACION -->
+        
+
         
     </div>
 </body>

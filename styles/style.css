@@ -9,17 +9,38 @@
     box-sizing: border-box;
 }
 
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #2e2e31;
+}
+
 ul{
     list-style: none;
 }
 
-a{
-    font-size: 17px;
-    text-decoration: none;
-}
-
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    padding: 90px;
+    background-color: #F6F7FB;
+}
+
+footer{
+    width: 100%;
+    padding: 90px;
+    background-color: #FF639F;
+    color: #FFFFFF;
 }
 
 button{
@@ -30,12 +51,28 @@ button{
     align-items: center;
 }
 
+
 /* CONTENEDOR GENERAL DE LA PAGINA */
 .container{
     width: 100vw;
     height: 100vh;
     background-color: aliceblue;
 }
+
+
+/* A R E A S */
+.ladoIzquierdo{
+    width: 50%;
+    height: 100%;
+    /*border: 1px solid black;*/
+}
+
+.ladoDerecho{
+    width: 50%;
+    height: 100%;
+    /*border: 1px solid black;*/
+}
+
 
 
 
@@ -65,3 +102,83 @@ button{
     border: 2px solid #000000;
 }
 
+
+/* FLEX */
+.flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-start-center{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-row-between-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column-between-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column-end-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.flex-column-end-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+/* E S T I L O S    D E    L E T R A S */
+.title{
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.medium-title{
+    font-size: 30px;
+}
+
+.big-title{
+    font-size: 60px;
+}
+
+.normal-title{
+    font-size: 45px;
+}
+
+
+/* COLORES DE LETRAS */
+.letra-rosa{
+    color: #FF639F;
+}
+
+.letra-gris-claro{
+    color: #616161;
+}
+
+.letra-gris-oscuro{
+    color: #2E2E31;
+}
+
+
+/* MARGENES GENERALES */
+.mb-40{
+    margin-bottom: 40px;
+}

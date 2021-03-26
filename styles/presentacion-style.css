@@ -1,0 +1,11 @@
+/* SECCION DE PRESENTACION */
+.Presentacion{
+    width: 100%;
+    height: 100vh;
+    padding: 90px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+/* E S T I L O S    D E    L E T R A S */
