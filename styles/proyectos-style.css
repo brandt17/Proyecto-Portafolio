@@ -1,0 +1,33 @@
+/* S E C C I O N   D E   P R O Y E C T O S*/
+.Proyectos{
+    width: 100%;
+    padding: 90px;
+    background-color: #FFFFFF;
+}
+
+/* G R I D */
+.grid-p{
+    display: grid;
+    grid-template-columns: repeat(3,340px);
+    grid-template-rows: repeat(3,340px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.proyecto{
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #b8b8bb;
+    background-color: white;
+}
+
+.proyecto:hover{
+    border: 1px solid #FF639F;
+    color: #FF639F;
+}
+
+.proyecto:active{
+    border: 1px solid #FF639F;
+    color: #FF639F;
+    background-color: #fff1f7;
+}
