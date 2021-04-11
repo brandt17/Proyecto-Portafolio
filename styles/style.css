@@ -60,11 +60,11 @@ button{
 }
 
 
+
 /* A R E A S */
 .ladoIzquierdo{
     width: 50%;
     height: 100%;
-    /*border: 1px solid black;*/
 }
 
 .ladoDerecho{
@@ -87,6 +87,7 @@ button{
 }
 .btn:active{
     border: 2px solid #FF639F;
+    box-shadow: 0px 0px 11px 3px #FF639F;
 }
 
 
@@ -99,7 +100,7 @@ button{
     padding: 12px 22px;
     background: rgb(235,40,114);
     background: linear-gradient(0deg, rgba(235,40,114,1) 0%, rgba(255,115,180,1) 50%, rgba(249,60,60,1) 100%);
-    border: 2px solid #000000;
+    border: 1px solid #000000;
 }
 
 
@@ -220,6 +221,14 @@ button{
 /* M A R G E N E S   G E N E R A L E S */
 .m-50{
     margin: 50px
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-20{
+    margin-top: 20px;
 }
 
 .mt-40{

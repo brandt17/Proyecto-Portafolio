@@ -28,6 +28,7 @@
 
 .proyecto:active{
     border: 1px solid #FF639F;
+    box-shadow: 0px 0px 11px 3px #FF639F;
     color: #FF639F;
     background-color: #fff1f7;
 }
